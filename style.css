@@ -1,31 +1,53 @@
 /* ↓ EN LAS PRIMERA LÍNEA PODEMOS ENLAZAR LAS FUENTES QUE USAREMOS ↓ */
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Honk&display=swap');
+@import url(https://fonts.googleapis.com/css2?family=Condiment&display=swap);
+@import url(/workspaces/agua-0/elementos/Spooky_Webbie.ttf);
 
 /* ↓ A PARTIR DE ESE PUNTO PODEMOS LLAMAR TODAS LAS PROPIEDADES DE NUESTRAS CLASES Y ID´S ↓ */
 body {
-  background-color: #ffaffc;
+  background-color: #220235;
   margin: 0;
   padding: 0;
 }
 
 h1 {
-  /* font-family: 'Nunito Sans';*/
-  font-family: 'Honk', system-ui;
-  font-weight: 500;
+  /* font-family: 'Condiment';*/
+  font-family: 'Condiment', system-ui;
+  font-weight: 444;
   margin: 0;
   position: absolute;
-  font-size: 20vh;
+  font-size: 15vh;
   top: 50%;
   left: 50%;
   transform: translateX(-50%) translateY(-50%);
 }
 
 a {
-  color: blue;
+  color: rgb(209, 56, 201);
   text-decoration: none;
 }
 
 a:hover {
-  background-color: #36fcff;
+  background-color: #6527c9;
+}
+
+p{
+    font-family:'Times New Roman', Times, serif;
+font-size: 1.0em;
+  margin: 0;
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+
+}
+
+#subparrafo{
+    font-size:1.8em;
+    color: rgb(90, 12, 86);
+}
+
+#subparrafo:hover {
+  background-color: darkred;
 }
