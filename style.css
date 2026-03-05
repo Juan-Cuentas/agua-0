@@ -3,6 +3,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Honk&display=swap');
 @import url(https://fonts.googleapis.com/css2?family=Condiment&display=swap);
 @import url(/workspaces/agua-0/elementos/Spooky_Webbie.ttf);
+@import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100..900;1,100..900&display=swap');
+
 
 /* ↓ A PARTIR DE ESE PUNTO PODEMOS LLAMAR TODAS LAS PROPIEDADES DE NUESTRAS CLASES Y ID´S ↓ */
 body {
@@ -13,7 +15,7 @@ body {
 
 h1 {
   /* font-family: 'Condiment';*/
-  font-family: 'Condiment', system-ui;
+  font-family: 'Spooky_Webbie', system-ui;
   font-weight: 444;
   margin: 0;
   position: absolute;
@@ -33,11 +35,19 @@ a:hover {
 }
 
 p{
-    font-family:'Times New Roman', Times, serif;
+
+  font-family: "Bitter", serif;
+  font-optical-sizing: auto;
+  font-weight: 444;
+  font-style: normal;
+
+  /*
+    font-family:'Spooky_Webbie', Times, serif;
+    */
 font-size: 1.0em;
   margin: 0;
   position: absolute;
-  top: 55%;
+  top: 65%;
   left: 50%;
   transform: translateX(-50%) translateY(-50%);
 
@@ -51,3 +61,10 @@ font-size: 1.0em;
 #subparrafo:hover {
   background-color: darkred;
 }
+
+@font-face{
+  font-family: Spooky_Webbie;
+  src: url(elementos/Spooky_Webbie.ttf);
+
+}
+
